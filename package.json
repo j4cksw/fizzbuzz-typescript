@@ -12,10 +12,13 @@
     "grunt": "^0.4.5",
     "grunt-contrib-watch": "^0.6.1",
     "grunt-typescript": "^0.6.1",
+    "gulp": "^3.8.11",
+    "gulp-typescript": "^2.7.2",
     "jasmine-core": "^2.2.0",
     "karma": "^0.12.31",
     "karma-chrome-launcher": "^0.1.8",
     "karma-jasmine": "^0.3.5",
+    "karma-typescript-preprocessor": "0.0.16",
     "typescript": "1.4.1"
   }
 }

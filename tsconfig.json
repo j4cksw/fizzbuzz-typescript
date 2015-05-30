@@ -1,0 +1,22 @@
+{
+    "version": "1.5.0-alpha",
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "declaration": false,
+        "noImplicitAny": false,
+        "removeComments": true,
+        "noLib": false
+    },
+    "filesGlob": [
+        "./**/*.ts",
+        "!./node_modules/**/*.ts"
+    ],
+    "files": [
+        "./test/FizzBuzzSpec.ts",
+        "./ts/fizzbuzz.ts",
+        "./ts/rules.ts",
+        "./ts/rulesfactory.ts",
+        "./typings/jasmine/jasmine.d.ts"
+    ]
+}

@@ -7,7 +7,7 @@ class FizzBuzz{
 
     say(input: number): string {
         var result;
-        this.rulesFactory.createRulesForNumber(input).some(function (rule) {
+        this.rulesFactory.createRulesForNumber(input).some((rule) => {
             result = rule.answer();
             return rule.isAccept();
         });
